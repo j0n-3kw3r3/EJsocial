@@ -1,0 +1,97 @@
+.rightBar{
+    flex: 3.5;
+        height: calc(100vh -50px);
+        overflow-y: scroll;
+}
+.profileWrapper{
+    padding: 20px 20px  ;
+}
+
+.birthdayImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.bdText{
+    font-weight: 200;
+    font-size: 15px;
+}
+.barAds{
+width: 100%;
+border-radius: 10px;
+margin: 30px 0;
+}
+
+.barTitle{
+    margin-bottom: 20px;
+}
+
+.barFriendList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.rightBarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.RBInfo{
+    margin-bottom: 30px;
+}
+.RBInfoItem{
+    margin-bottom: 10px;
+}
+.RBInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.RBFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.RBFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+
+}
+.RBFollowingName{
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.RBFollowingImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.follow{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0, 5px;
+    background-color: #1877f2;
+}
+.follow:focus{
+    outline: none;
+}

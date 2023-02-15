@@ -1,0 +1,34 @@
+.barFriend{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.barProfileContainer{
+    margin-right: 10px;
+    position: relative;
+
+}
+
+.profileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rbOnline{
+    width: 12px;
+    height: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+.rbUsername{
+    font-weight: 500;
+
+}
